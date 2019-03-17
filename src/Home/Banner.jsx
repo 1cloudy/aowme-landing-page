@@ -43,7 +43,7 @@ export default class Banner extends React.PureComponent {
           </div>
           <h1 key="h1">新糖，一种新的生活方式</h1>
           <p key="content">
-            未来美学，专注发现更多美好小物
+            未来美学出品，专注于发现更多美好小物
           </p>
           <div key="button" className="button-wrapper">
             <Popover

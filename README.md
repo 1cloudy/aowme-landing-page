@@ -1,22 +1,17 @@
-### ant desing pro
+### 新糖，一种新的生活方式
 
-ant desing pro 里的 landing page. 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ab5b885-9821-416f-a343-c6027d70e584/deploy-status)](https://app.netlify.com/sites/aowme/deploys)
 
-脚手架使用的是： [antd-init](https://github.com/ant-design/antd-init);
+## 预览
 
-## preview
+https://aow.me
 
-https://pro.ant.design
-
-https://ant-motion.github.io/ant-design-pro-landing-page/
-
-
-## install
+## 安装
 ```
-$ npm i 
+$ npm i
 ```
 
-## Development
+## 部署
 
 ```
 $ npm start
