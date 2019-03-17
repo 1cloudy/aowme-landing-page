@@ -1,6 +1,6 @@
 @import './default';
 
-@padding-space: 114px;
+@padding-space: 0;
 
 footer.dark {
   background-color: #000;
@@ -25,7 +25,9 @@ footer {
   clear: both;
   font-size: 12px;
   background: #fff;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   z-index: 100;
   color: @site-text-color;
   box-shadow: 0 1000px 0 1000px #fff;
@@ -52,13 +54,10 @@ footer {
       }
     }
   }
-  .footer-wrap {
-    position: relative;
-    padding: 86px @padding-space 70px @padding-space;
-  }
+
   .bottom-bar {
     border-top: 1px solid @border-color;
-    text-align: right;
+    text-align: center;
     padding: 20px @padding-space;
     margin: 0;
     line-height: 24px;
